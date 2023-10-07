@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+:root{
+    --Dark-green-buttons:#3A4F39;
+    --Light:#fff;
+    --Primary:#2D2E2E;
+
+}
+
+
+.navbar .login-list .btn{
+    height: 56px;
+    padding: 17px 30px;
+    align-items: center;
+    border-radius: 4px;
+    background: var(--Dark-green-buttons);
+    color: var(--Light);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.navbar{
+    width: 1920px;
+    height: 96px;
+    margin: 30px;
+    position: relative;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.navbar .logo{
+    width: 220px;
+    height: 80px;
+    display: inline-block;
+}
+
+.navbar .list-item li, .navbar .login-list li {
+    display: inline-block;
+}
+
+.navbar .list-item{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+}
+
+
+.navbar .list-item li>button{
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    color: var(--Primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    cursor: pointer;
+    line-height: normal;
+    margin-right: 60px;
+}
+
+.navbar .list-item li button img{
+    position: absolute;
+    top: -10%;
+}
+
+.navbar .login-list{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 86%;
+    transform: translate(-50%,-50%);
+}
+
+
+.navbar .login-list li>a{
+    color: var(--Primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 24px;
+}
+
+
+
+
